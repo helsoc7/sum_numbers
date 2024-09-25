@@ -3,7 +3,7 @@
     {
       "name": "Test if File exists",
       "setup": "",
-      "run": "python -m unittest test_is_even.Test.test_file_exists",
+      "run": "python -m unittest test_sum_numbers.Test.test_file_exists",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -11,9 +11,9 @@
       "points": 10
     },
     {
-      "name": "Test is_even Function",
+      "name": "Test sum_numbers Function",
       "setup": "",
-      "run": "python -m unittest test_is_even.Test.test_is_even",
+      "run": "python -m unittest test_sum_numbers.Test.test_sum_numbers",
       "input": "",
       "output": "",
       "comparison": "included",
