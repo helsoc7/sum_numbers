@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test if File exists",
+      "setup": "",
+      "run": "python -m unittest test_is_even.Test.test_file_exists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test is_even Function",
+      "setup": "",
+      "run": "python -m unittest test_is_even.Test.test_is_even",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
